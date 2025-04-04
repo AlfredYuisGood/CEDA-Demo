@@ -1,12 +1,7 @@
 
-# -----------------------------
 # README FILE (Markdown String)
-# -----------------------------
-README = """
-# CEDA: Causal Echo Diffusion Attenuator
 
-This is the official implementation of the **CEDA** model introduced in the TOIS 2025 paper:
-**"Breaking the Loop: Causal Learning to Mitigate Echo Chambers in Social Networks"**
+** Sample code for "Breaking the Loop: Causal Learning to Mitigate Echo Chambers in Social Networks"**
 
 ## Highlights
 - **User Dual Modelling**: Merges user attributes and positional encodings.
@@ -25,10 +20,3 @@ python ceda_echo_chamber.py
 - PyTorch
 - scikit-learn
 - numpy
-
-## License
-MIT License
-"""
-
-print("\n--- README ---")
-print(README)
